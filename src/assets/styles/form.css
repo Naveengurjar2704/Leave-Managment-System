@@ -1,0 +1,50 @@
+.frmContainer {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.frmTitle {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.frmGrid {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.frmGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.frmGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.frmGroup input,
+.frmGroup textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.frmGroup textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+}

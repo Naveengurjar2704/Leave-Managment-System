@@ -1,0 +1,48 @@
+.tablecontainer {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.tableStyle {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  font-size: 0.95rem;
+}
+
+.tableStyle th {
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem;
+}
+
+.tableStyle td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.tableStyle tr:hover {
+  background-color: #f1f3f5;
+}
+
+.status {
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status.pending { background: #fff3cd; color: #856404; }
+.status.approved { background: #d4edda; color: #155724; }
+.status.rejected { background: #f8d7da; color: #721c24; }
+
+.action-btn {
+  margin: 0 0.3rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+}

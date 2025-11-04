@@ -15,7 +15,7 @@ Technology Used:
 
 
 Backend:
-For mock Api and backed we have created a LeaveServices.js file which simulate as a backend. It mocks the Login and logout operation and we have used the local storage for storing the data.
+For mock Api and backend we have created a LeaveServices.js file which simulate as a backend. It mocks the Login and logout operation and we have used the browser local storage for storing the data.
 Setup:
 1.	Clone the GitHub repository using    
 git clone https://github.com/Naveengurjar2704/Leave-Managment-System
@@ -24,6 +24,7 @@ git clone https://github.com/Naveengurjar2704/Leave-Managment-System
 3.	Install dependencies using npm install
 4.	Run the application using npm run dev
 5.	Open in Browser
+
 
 
 

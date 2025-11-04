@@ -25,6 +25,7 @@ git clone https://github.com/Naveengurjar2704/Leave-Managment-System
 4.	Run the application using npm run dev
 5.	Open in Browser
 
+**For best view please view on desktop or laptop**
 
 
 
